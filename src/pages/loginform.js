@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import 'E:/SEHAT/sehat-app/src/pages/loginform.css'; 
-import bgImage from 'E:/SEHAT/sehat-app/src/components/logo.jpg';
-import avatarImage from 'E:/SEHAT/sehat-app/src/components/avatar.svg';
-import Navbar from 'E:/SEHAT/sehat-app/src/components/navbar.js';
+import './loginform.css'; 
+import bgImage from './logo.jpg';
+import avatarImage from './avatar.svg';
 
 const LoginForm = () => {
   const [userType, setUserType] = useState('admin');

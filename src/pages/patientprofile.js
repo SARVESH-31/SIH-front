@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import 'E:/SEHAT/sehat-app/src/pages/patientprofile.css'; // Import the CSS for styling
+import './patientprofile.css'; // Import the CSS for styling
 
 const PatientProfile = () => {
   const [showQRCode, setShowQRCode] = useState(false);

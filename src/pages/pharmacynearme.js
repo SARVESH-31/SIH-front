@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import 'E:/SEHAT/sehat-app/src/pages/pharmacynearme.css';
+import './pharmacynearme.css';
 
 const PharmacyNearMe = () => {
   const [loading, setLoading] = useState(false);

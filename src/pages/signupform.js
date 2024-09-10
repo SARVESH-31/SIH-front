@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // In case routing is needed
-import 'E:/SEHAT/sehat-app/src/pages/signupform.css'; // Importing the CSS file
+import './signupform.css'; // Importing the CSS file
 
 const SignupForm = () => {
   const [role, setRole] = useState('');
